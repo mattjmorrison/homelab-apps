@@ -121,7 +121,7 @@ apps:
     sources:
       - repoURL: ghcr.io/actions/actions-runner-controller-charts
         chart: gha-runner-scale-set-controller
-        targetRevision: "*"
+        targetRevision: "0.13.1"
         helm:
           valueFiles:
             - $values/values-controller.yaml
@@ -137,7 +137,7 @@ apps:
     sources:
       - repoURL: ghcr.io/actions/actions-runner-controller-charts
         chart: gha-runner-scale-set
-        targetRevision: "*"
+        targetRevision: "0.13.1"
         helm:
           valueFiles:
             - $values/values-runner-amd64.yaml
@@ -153,7 +153,7 @@ apps:
     sources:
       - repoURL: ghcr.io/actions/actions-runner-controller-charts
         chart: gha-runner-scale-set
-        targetRevision: "*"
+        targetRevision: "0.13.1"
         helm:
           valueFiles:
             - $values/values-runner-arm64.yaml
