@@ -16,9 +16,9 @@ apps:
     repoURL: https://github.com/mattjmorrison-homelab/homelab-argocd-image-updater
     path: manifests
 
-  - name: homelab-argocd
+  - name: k8s-argocd
     namespace: argocd
-    repoURL: https://github.com/mattjmorrison-homelab/homelab-argocd
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-argocd
     path: manifests
 
   - name: homelab-cert-manager-config
