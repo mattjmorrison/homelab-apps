@@ -208,6 +208,11 @@ apps:
     repoURL: https://github.com/mattjmorrison-homelab/homelab-zot
     path: manifests
 
+  - name: k8s-zot
+    namespace: zot
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-zot
+    path: manifests
+
   - name: k8s-hdmi-switch
     namespace: hdmi-switch
     repoURL: https://github.com/mattjmorrison-homelab/k8s-hdmi-switch
