@@ -107,7 +107,7 @@ apps:
     path: manifests
 
   - name: k8s-ci-rbac
-    namespace: garage
+    namespace: monitoring
     repoURL: https://github.com/mattjmorrison-homelab/k8s-ci-rbac
     path: manifests
 
