@@ -128,9 +128,9 @@ apps:
     repoURL: https://github.com/mattjmorrison-homelab/homelab-home-assistant
     path: manifests
 
-  - name: homelab-homepage
+  - name: k8s-homepage
     namespace: homepage
-    repoURL: https://github.com/mattjmorrison-homelab/homelab-homepage
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-homepage
     path: manifests
 
   - name: homelab-kube-state-metrics
